@@ -1,0 +1,35 @@
+/* ============================================================
+   styles/earn/earn.css — EARN screen
+   ============================================================ */
+
+.checkin-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+}
+.checkin-day {
+  border: 1px solid var(--line);
+  background: var(--bg);
+  border-radius: 8px;
+  padding: 8px 2px;
+  text-align: center;
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.checkin-day .d { font-size: 9px; color: var(--muted); font-weight: 700; }
+.checkin-day .r { font-size: 8px; color: var(--muted); }
+.checkin-day.claimed { border-color: var(--green); }
+.checkin-day.next    { border-color: var(--blue); }
+
+.task-icon {
+  display: grid; place-items: center;
+  width: 40px; height: 40px;
+  font-size: 18px;
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+.task-reward { color: var(--gold); font-size: 11px; font-weight: 700; }

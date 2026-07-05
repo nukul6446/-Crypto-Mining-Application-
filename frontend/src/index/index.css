@@ -1,0 +1,13 @@
+/* ============================================================
+   index/index.css — THE CSS "LINKER"
+   Each section's CSS lives in its own folder
+   (src/styles/<name>/<name>.css) and is @imported here.
+   ============================================================ */
+@import "../styles/base/base.css";
+@import "../styles/auth/auth.css";
+@import "../styles/mining/mining.css";
+@import "../styles/earn/earn.css";
+@import "../styles/wallet/wallet.css";
+@import "../styles/referral/referral.css";
+@import "../styles/profile/profile.css";
+@import "../styles/admin/admin.css";

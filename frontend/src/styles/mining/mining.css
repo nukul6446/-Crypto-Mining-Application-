@@ -1,0 +1,35 @@
+/* ============================================================
+   styles/mining/mining.css — MINING screen
+   ============================================================ */
+
+.announce {
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--blue);
+  background: var(--card);
+  border-radius: var(--radius);
+  padding: 10px 12px;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.balance-card { text-align: center; }
+.balance { font-size: 28px; font-weight: 800; }
+
+.mine-orb-wrap { display: flex; justify-content: center; padding: 4px 0; }
+.mine-orb {
+  width: 170px; height: 170px;
+  border-radius: 50%;
+  background: var(--card);
+  border: 2px solid var(--line);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  text-align: center;
+}
+.mine-orb.mining { border-color: var(--blue); }
+
+.orb-icon   { font-size: 40px; }
+.orb-amount { font-size: 16px; font-weight: 700; color: var(--blue); }
+.orb-timer  { letter-spacing: 1px; }

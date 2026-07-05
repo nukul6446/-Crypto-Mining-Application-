@@ -1,0 +1,13 @@
+/* ============================================================
+   styles/profile/profile.css — PROFILE screen
+   ============================================================ */
+
+.setting-row {
+  padding: 9px 0;
+  font-size: 14px;
+  border-bottom: 1px solid var(--line);
+  cursor: pointer;
+}
+.setting-row:last-child { border-bottom: none; }
+
+.notif-unread { border-left: 4px solid var(--blue); }

@@ -1,0 +1,29 @@
+/* ============================================================
+   styles/referral/referral.css — FRIENDS / REFERRAL screen
+   ============================================================ */
+
+.ref-hero { align-items: center; text-align: center; }
+
+.ref-code {
+  width: 100%;
+  background: var(--bg);
+  border: 1px dashed var(--blue);
+  border-radius: 8px;
+  padding: 10px;
+  font-family: monospace;
+  font-size: 16px;
+  letter-spacing: 2px;
+  color: var(--blue);
+  font-weight: 700;
+}
+
+.ref-avatar {
+  display: grid; place-items: center;
+  width: 34px; height: 34px;
+  border-radius: 50%;
+  background: var(--bg);
+  border: 1px solid var(--line);
+  color: var(--blue);
+  font-weight: 700;
+  flex-shrink: 0;
+}

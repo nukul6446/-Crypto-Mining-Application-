@@ -1,0 +1,21 @@
+/* ============================================================
+   index.css — THE CSS "LINKER"
+   ------------------------------------------------------------
+   One css file PER SECTION so styling is easy to find:
+   base.css     → colors, buttons, cards, nav, toast (shared)
+   auth.css     → login / register screen
+   mining.css   → mining screen (orb, balance)
+   earn.css     → daily check-in + tasks
+   wallet.css   → wallet + transaction history
+   referral.css → invite friends screen
+   profile.css  → profile + settings
+   admin.css    → admin panel
+   ============================================================ */
+@import "./styles/base.css";
+@import "./styles/auth.css";
+@import "./styles/mining.css";
+@import "./styles/earn.css";
+@import "./styles/wallet.css";
+@import "./styles/referral.css";
+@import "./styles/profile.css";
+@import "./styles/admin.css";

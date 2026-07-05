@@ -1,0 +1,10 @@
+/* ============================================================
+   styles/admin/admin.css — ADMIN PANEL screen
+   ============================================================ */
+
+.cfg-row { display: flex; flex-direction: column; gap: 3px; }
+.cfg-row label { font-size: 11px; color: var(--muted); font-weight: 600; }
+
+.admin-actions { display: flex; flex-direction: column; gap: 5px; flex-shrink: 0; }
+
+textarea.input { resize: vertical; }
