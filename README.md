@@ -87,14 +87,6 @@ litminer/
 │   │   ├── partials/{head,nav,foot}.ejs
 │   │   └── auth.ejs mining.ejs earn.ejs friends.ejs wallet.ejs profile.ejs admin.ejs
 │   └── public/style.css                ← shared CSS for the EJS pages
-│
-├── tutorial-steps/                     ← LEARNING PLAYGROUND
-│   └── step-01-hello/ … step-11-profile/    ← 11 small, runnable examples
-│
-├── docs/
-│   ├── ARCHITECTURE.md                 ← frontend ↔ backend map
-│   └── LitMiner.postman_collection.json
-│
 ├── index.html
 ├── package.json
 ├── tsconfig.json
