@@ -67,7 +67,7 @@ export function ProfileSection() {
           ))}
 
       <button className="btn btn-danger btn-block" onClick={logout}>🚪 Log Out</button>
-      <p className="muted small center">LitMiner · feature-folder build</p>
+      
     </section>
   );
 }
