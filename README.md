@@ -151,37 +151,8 @@ Import `docs/LitMiner.postman_collection.json` into Postman to test all endpoint
 
 **Golden rule:** never change a balance without inserting a transaction row in the same `commit(...)`.
 
----
-
-## 6. 🏗️ Architecture & Frontend ↔ Backend Map
-
-See **`docs/ARCHITECTURE.md`** for the full mapping — every frontend function
-corresponds to a backend route, with the exact recipe to swap localStorage
-for real `fetch()` calls.
-
----
-
-## 7. 🎓 Learn It Step by Step
-
-### Frontend tutorial (`tutorial-steps/`)
-Work through `step-01-hello` → `step-11-profile`. Each folder is a tiny, runnable
-React example of one concept, with a `NOTES.md` explaining the new lines.
-**Install once:** `npm install react-toastify`.
-
-### Backend tutorial (`backend-tutorial/`)
-Work through `step-01-server` → `step-11-ejs`. Each folder is a tiny, runnable
-Node/Express example, building the real backend one piece at a time (Express
-hello → MongoDB → models → JWT auth → mining → wallet → rewards → referral →
-admin → EJS pages).
-**Setup:** `mkdir litminer-backend && cd litminer-backend && npm init -y && npm install express mongoose bcryptjs jsonwebtoken cors dotenv ejs`.
-
----
-
-## 8. 🚢 Deployment
-
-- **Frontend:** `npm run build` → upload `dist/` to Netlify / Vercel / Cloudflare Pages.
-- **Backend:** deploy `backend/` to Render / Railway / Fly.io. Set `MONGO_URI`, `JWT_SECRET`, `PORT` as environment variables.
-- **Database:** free MongoDB Atlas cluster; whitelist the backend server's IP.
-
  
+
+---
+
  
